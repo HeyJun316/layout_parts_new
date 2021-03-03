@@ -4,15 +4,17 @@
 .q-table {
   border-collapse: collapse;
   text-align: center;
+  table-layout: fixed;
   width: 100%;
+  font-size: 16px;
+  line-height: 18px;
 }
 .q-table th,
 tr,
 td {
   border: solid #dedede 1px;
   padding: 10px;
-  font-size: 16px;
-  line-height: 18px;
+
 }
 
 /* 奇数行(odd or 2n+1)のグレー */
@@ -21,11 +23,11 @@ td {
 }
 
  /* thの青文字 */
-.q-table th:first-child,
-.q-table tr:first-child {
+.q-table tr:first-child,
+.q-table th:first-child {
   background-color: #2244aa;
-  line-height: 26px;
   font-size: 18px;
+  line-height: 26px;
   color: white;
 }
 /* 最後のダッシュ線 */

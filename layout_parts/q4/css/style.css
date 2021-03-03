@@ -4,47 +4,43 @@
 /* 共通 */
 .q4 {
   background-color: #eff3f4;
-  padding: 10px;
+  padding: 20px;
 }
 .common {
   padding: 20px 0;
+  display: table-cell;
+
 }
 .t-contents {
   text-align: center;
   display: table;
-  margin: 0 auto;
+  margin-top: 20px;
   width: 100%;
 }
-.t-contents:last-child {
-  margin-top: 10px;
+.t-contents:first-child {
+  margin-top: 0;
 }
 
 /* color */
 .is-orange {
   background-color: #fbc8b8;
-  display: table-cell;
   width: 100px;
 }
 .is-blue {
   background-color: #b6d8ed;
-  display: table-cell;
   width: 100px;
 }
 .is-purple {
   background-color: #e0abd9;
-  display: table-cell;
 }
 .is-red {
   background-color: #e5d32e;
-  display: table-cell;
 }
 .is-yellow {
   background-color: #ec8f9a;
-  display: table-cell;
 }
 .is-green {
   background-color: #8fdcad;
-  display: table-cell;
   width: 500px;
 }
 

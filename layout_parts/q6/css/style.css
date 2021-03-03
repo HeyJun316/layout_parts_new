@@ -18,6 +18,7 @@
   margin: 0 auto;
   width: 90px;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 /* q6-2 table */
@@ -32,7 +33,7 @@
 .is-cell p {
   padding: 10px;
   background-color: #fff;
-  display: inline;
+  display: inline-block;
 }
 
 /* q6-2 flex */
@@ -60,7 +61,6 @@
   left: 0;
   top: 0;
   margin: auto;
-  padding: 10px;
 }
 /* q6-3  variable*/
 
