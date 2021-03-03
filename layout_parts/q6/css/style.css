@@ -1,5 +1,81 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* q6-1 text-align&&margin */
+.is-center {
+  text-align: center;
+}
+.is-inline {
+  padding: 10px;
+  background-color: #e6f2ff;
+  width: 70px;
+  display: inline-block;
+}
 
+.is-margin {
+  background-color: #e6f2ff;
+  text-align: center;
+  margin: 0 auto;
+  width: 90px;
+  padding: 10px;
+}
+
+/* q6-2 table */
+.is-table {
+  display: table;
+}
+.is-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.is-cell p {
+  padding: 10px;
+  background-color: #fff;
+  display: inline;
+}
+
+/* q6-2 flex */
+
+.is-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.is-flex p {
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* q6-3 fiexd */
+
+.is-stable {
+  position: relative;
+}
+
+.is-s_abso {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+  padding: 10px;
+}
+/* q6-3  variable*/
+
+/* <div class="q6__box is-flexible">
+<p class="q6__box__inner is-a_abso">position可変</p>
+</div> */
+
+.is-flexible {
+  position: relative;
+}
+.is-a_abso {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
 /* 回答はここに書いてね */

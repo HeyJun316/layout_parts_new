@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q2 {
+  background-color: #eff3f4;
+  margin: 0 auto;
+  width: 900px;
+  padding: 20px;
+}
 
+.is-left {
+  float: left;
+  margin: 0 20px 10px 0;
+}
+.is-right {
+  float: right;
+  margin: 0 0 10px 20px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+  /* ↑調べる */
+}
 /* 回答はここに書いてね */
