@@ -9,12 +9,12 @@
   font-size: 16px;
   line-height: 18px;
 }
+
 .q-table th,
-tr,
-td {
+.q-table tr,
+.q-table td {
   border: solid #dedede 1px;
   padding: 10px;
-
 }
 
 /* 奇数行(odd or 2n+1)のグレー */
