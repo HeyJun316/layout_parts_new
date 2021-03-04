@@ -11,19 +11,19 @@
 }
 
 .q-table th,
-.q-table tr,
 .q-table td {
   border: solid #dedede 1px;
   padding: 10px;
+  vertical-align: middle;
 }
 
 /* 奇数行(odd or 2n+1)のグレー */
-.q-table tr:nth-child(odd) {
+.q-table tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
  /* thの青文字 */
-.q-table tr:first-child,
+.q-table th:nth-child(n+1),
 .q-table th:first-child {
   background-color: #2244aa;
   font-size: 18px;
@@ -31,13 +31,33 @@
   color: white;
 }
 /* 最後のダッシュ線 */
-.q-table tr:last-child {
+.q-table tr:nth-child(n+5) {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね nth-childなし*/
-/* .q-table {
+/* 3/3 山口メンター ⑴dashedが1行目の上に当たる⑵1行目に青bgcが当たってない⑶合計カロリーの値が真ん中じゃない
+
+ ⑴
+.q-table tr:last-child →.q-table tr:nth-child(n+5)
+
+
+
+ ⑵
+.q-table tr:first-child,→.q-table th:nth-child(n+1),
+
+
+ ⑶
+.q-table th,
+.q-table td {
+  border: solid #dedede 1px;
+  padding: 10px;
+<<vertical-align: middle; ←追加>>
+*/
+
+
+/* 回答はここに書いてね nth-childなし
+.q-table {
   border-collapse: collapse;
   text-align: center;
   width: 100%;
