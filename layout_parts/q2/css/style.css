@@ -1,7 +1,13 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q2 {
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box_q2 {
   background-color: #eff3f4;
   margin: 0 auto;
   width: 900px;
