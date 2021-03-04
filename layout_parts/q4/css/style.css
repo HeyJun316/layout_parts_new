@@ -2,10 +2,11 @@
 
 /* 回答はここに書いてね */
 /* 共通 */
-.q4 {
+.is-table {
   background-color: #eff3f4;
   padding: 20px;
 }
+
 .common {
   padding: 20px 0;
   display: table-cell;
