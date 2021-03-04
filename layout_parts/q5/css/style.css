@@ -9,20 +9,21 @@
   font-size: 30px;
 }
 
-.q5 {
+.q5_box {
   background-color: #ecf1f2;
   position: relative;
   height: 500px;
   padding: 40px;
   width: 500px;
+  margin: 0 auto;
   box-sizing: border-box;
-  display: table-cell;
 }
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.q5_inner_box {
+  line-height: 100px;
+  text-align: center;
 }
+
 .one {
   background-color: #ffefd3;
   top: 20px;
@@ -30,33 +31,34 @@
   z-index: 1;
 }
 
-
 .two {
   background-color: #7084de;
   top: 100px;
   right: 120px;
-    z-index: 2;
-
+  z-index: 2;
 }
+
 .three {
   background-color: #d0ecea;
   top: 180px;
   right: 40px;
   z-index: 3;
-
 }
+
 .four {
   background-color: #8b7a5e;
   bottom: 120px;
   right: 120px;
   z-index: 4;
 }
+
 .five {
   background-color: #9fd6d2;
   bottom: 40px;
   left: 200px;
   z-index: 5;
 }
+
 .six {
   background-color: #fffee4;
   position: absolute;
@@ -64,18 +66,21 @@
   left: 120px;
   z-index: 6;
 }
+
 .seven {
   background-color: #deae70;
   bottom: 200px;
   left: 40x;
   z-index: 7;
 }
+
 .eight {
   background-color: #de70cf;
   top: 100px;
   left: 120px;
   z-index: 8;
 }
+
 .eight::after {
   position: absolute;
   content: "";
@@ -84,14 +89,13 @@
   width: 20px;
   height: 20px;
   background-color: #ffefd3;
-  z-index: 1;
 }
+
 .nine {
   background-color: #2b69a3;
   position: fixed;
-  margin: 10px 0 0 10px;
-  left: 0;
-  top: 0;
+  left: 10px;
+  top: -10px;
 }
 
 
