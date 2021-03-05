@@ -1,9 +1,100 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7__box {
-  width: 225px;
+/* q7-1 float */
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.f-box {
+  padding: 20px;
+}
+
+.f-contents {
   float: left;
+  margin-left: 50px;
+  width: 205px;
+}
+
+.f-contents:first-child {
+  margin-left: 0;
+}
+
+/* q7-2 table */
+
+.t-table {
+  display: table;
+}
+/*
+<<vartical-alignはインライン要素同士での縦の位置を調整する
+＋浮いてる要素には効かないp-aboslute/relative/floatなど>>
+*/
+/*<<table-cellではflexぽくなる>>*/
+.t-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+.t-cell:first-child {
+  padding-left: 0;
+}
+
+.t-box2 {
+  width: 205px;
+}
+
+/* q7-3 inline  */
+/* 謎余白削除 */
+.i-contents {
+  font-size: 0;
+}
+/* 親要素でfont-size: 0;なのでfont-size: 16px;を記載しろ */
+.i-inline {
+  width: 225px;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.i-inline:first-child {
+  margin-left: 0;
+}
+
+/* q7-4 flex  */
+
+.fl-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.fl-box {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+/* q7-5 inline+margin */
+.font-zero {
+  font-size: 0;
+}
+.m-flex {
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.m-fixed {
+  width: 300px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  font-size: 16px;
 }
 
 /* 回答はここに書いてね */

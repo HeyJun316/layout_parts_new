@@ -1,5 +1,48 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* .text { 吹き出し全体が width:500;
+  position: relative;
+  margin: 0 auto;
+  border: 5px solid #222;
+  width: 500px;
+  padding: 20px;
+  border-radius: 30px;
+  line-height: 16px;
+  font-size: 16px;
+  box-sizing: border-box;
+} */
+.text {
+  position: relative;
+  margin: 0 auto;
+  border: 5px solid #222;
+  width: 500px;
+  padding: 20px;
+  border-radius: 30px;
+  line-height: 16px;
+  font-size: 16px;
+}
+.text::before {
+  content: "";
+  position: absolute;
+  display: block;
+  border-top: 25px solid black;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  bottom: -25px;
+  left: 25px;
+  /* margin-left: -10px; */
 
+}
+.text::after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-top: 24px solid white;
+  border-right: 24px solid transparent;
+  border-left: 24px solid transparent;
+  bottom: -18px;
+  left: 26px;
+
+}
 /* 回答はここに書いてね */
