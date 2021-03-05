@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.box__inner {
+  margin-top: 30px;
+}
+
 .t-box {
   position: relative;
   overflow: hidden;
@@ -39,7 +43,6 @@
 .t-box:hover .t-text-mask {
   bottom: 0;
 }
-
 /* bgimgでできる？→×
 width: 500px;
 height: 333px;
