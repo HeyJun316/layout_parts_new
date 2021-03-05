@@ -35,6 +35,10 @@
   word-break: break-all;
 }
 
+.t-img {
+  transition: 0.5s;
+}
+
 .t-box:hover .t-img {
   transform: scale(1.5, 1.5);
   transition: 0.5s;
